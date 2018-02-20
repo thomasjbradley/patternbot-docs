@@ -1,0 +1,5 @@
+= Patternbot Documentation
+:toc:
+:experimental:
+
+== Documentation!

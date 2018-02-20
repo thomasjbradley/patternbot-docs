@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Documentation · Patternbot</title>
+</head>
+<body>
+  {% jsonball package from file package.json %}
+  v{{package.version}}
+  {{content}}
+</body>
+</html>
