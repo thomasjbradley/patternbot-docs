@@ -1,0 +1,32 @@
+{
+  "name": "patternbot-docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The documentation for Patternbot and the Patternbot include & template system.",
+  "homepage": "https://github.com/thomasjbradley/patternbot-docs#readme",
+  "author": "Thomas J Bradley <hey@thomasjbradley.ca>",
+  "license": "MIT",
+  "keywords": [
+    "patternbot",
+    "style",
+    "guide",
+    "pattern",
+    "library",
+    "web",
+    "dev",
+    "tools",
+    "patterns",
+    "css",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/thomasjbradley/patternbot-docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasjbradley/patternbot-docs.git"
+  },
+  "scripts": {
+    "start": "bundle exec jekyll serve --incremental --baseurl=''"
+  }
+}

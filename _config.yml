@@ -1,0 +1,8 @@
+version: 1
+permalink: pretty
+
+asciidoc:
+  ext: adoc
+
+asciidoctor:
+  template_dir: _templates
