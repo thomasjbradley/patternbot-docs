@@ -27,6 +27,6 @@
     "url": "git+https://github.com/thomasjbradley/patternbot-docs.git"
   },
   "scripts": {
-    "start": "bundle exec jekyll serve --incremental --baseurl=''"
+    "start": "bundle exec jekyll serve --incremental --ssl-key=_certs/https-key.pem --ssl-cert=_certs/https-cert.pem"
   }
 }
