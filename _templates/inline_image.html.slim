@@ -1,0 +1,6 @@
+- if type == 'icon'
+  i class=['icon', "i-#{(attr :size)}"]
+    svg
+      use xlink:href="#icon-#{target}"
+- else
+  img src=target alt=(attr :alt)

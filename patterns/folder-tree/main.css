@@ -1,0 +1,11 @@
+.folder-tree ol {
+  list-style: none;
+}
+
+.folder-tree ol li::before {
+  content: "";
+}
+
+.folder-tree p {
+  margin: 0;
+}
