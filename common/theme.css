@@ -1,0 +1,7 @@
+:root {
+  --font-primary: Georgia, serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
