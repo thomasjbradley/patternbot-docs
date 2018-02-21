@@ -2,4 +2,77 @@
 :toc:
 :experimental:
 
-== Documentation!
+== All you need is a folder
+
+[.folder-tree]
+. icon:folder[size=16] my-pattern-lib
+.. icon:empty-file[size=16] (_empty_)
+
+'''
+
+== Viewing the pattern library
+
+btn:[Browse patterns]
+
+kbd:[⌘B]
+
+menu:File[Browse Pattern Library]
+
+'''
+
+== Main readme
+=== Define the pattern library’s name
+=== Describe the pattern library
+
+'''
+
+== The commmon folder
+=== Web Dev tools
+
+* Gridifier
+* Modulifier
+* Typografier
+
+=== Configure colours
+==== Describe the colours
+=== Configure typefaces
+==== Define font URLs
+==== Describe the typefaces
+
+'''
+
+== Configure the pattern library
+=== Change the background colour
+=== Adjust the accent colour
+
+'''
+
+== The patterns folder
+=== Add a pattern
+=== Multi-file patterns
+=== Using CSS with patterns
+==== The common CSS
+=== Describe patterns with a readme
+==== Describe multiple pattern HTML files
+==== Set the display background colour
+==== Set a default display width
+==== Set a default display height
+==== Set a default display padding
+
+'''
+
+== The images folder
+=== Displaying different logo sizes
+=== Showing the icon sprite sheet
+
+'''
+
+== Set a display background colour for built-in patterns
+
+'''
+
+== Main readme kitchen sink
+
+'''
+
+== Pattern readme kitchen sink
