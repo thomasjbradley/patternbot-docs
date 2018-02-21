@@ -5,3 +5,12 @@ asciidoc:
 
 asciidoctor:
   template_dir: _templates
+
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "package.json"
+  - "tmp"
+  - "node_modules"
+  - "*.lock"
+  - "Gemfile*"
