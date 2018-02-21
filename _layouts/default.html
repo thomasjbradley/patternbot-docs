@@ -10,8 +10,12 @@
   <link href="patterns/folder-tree/main.css" rel="stylesheet">
 </head>
 <body>
+
+  {% include icons.html %}
+
   {% jsonball package from file package.json %}
   v{{package.version}}
+
   {{content}}
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 [.folder-tree]
 . icon:folder[size=16] my-pattern-lib
-.. icon:empty-file[size=16] (_empty_)
+.. icon:file-empty[size=16] (_empty_)
 
 '''
 
