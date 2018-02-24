@@ -1,4 +1,7 @@
 :root {
+  --color-code: #f9f9f9;
+  --color-code-border: #e2e2e2;
+
   --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --font-secondary: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }

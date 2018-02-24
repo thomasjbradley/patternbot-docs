@@ -1,0 +1,7 @@
+.code-labels {
+  padding-left: 1.4rem;
+}
+
+.code-labels li :last-child {
+  margin-bottom: 0;
+}
