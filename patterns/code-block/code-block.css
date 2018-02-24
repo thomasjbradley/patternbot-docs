@@ -1,3 +1,9 @@
+code {
+  padding: .2em;
+  border: 1px solid var(--color-code-border);
+  background-color: var(--color-code);
+}
+
 pre.highlight {
   border: 1px solid var(--color-code-border);
   background-color: var(--color-code);
@@ -6,4 +12,7 @@ pre.highlight {
 pre.highlight code {
   display: block;
   padding: .3em .4em;
+
+  background-color: transparent;
+  border: 0;
 }

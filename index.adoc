@@ -121,10 +121,10 @@ icons:
 The main description for the pattern library goes here. <2>
 ----
 [.code-labels]
-<1> The name of the pattern library, shown in the navigation & brand section
-<2> The pattern library description, shown at the top, in the brand section, next to the logos
-<3> Set the background colour of the whole pattern library: use theme variables, hex colours, or CSS colour names
-<4> Set the accent colour, used on important headings; _default:_ the primary colour
+<1> The name of the pattern library, shown in the navigation & brand section.
+<2> The pattern library description, shown at the top, in the brand section, next to the logos.
+<3> Set the background colour of the whole pattern library: use theme variables, hex colours, or CSS colour names.
+<4> Set the accent colour, used on important headings; _default:_ the primary colour.
 
 '''
 
@@ -140,7 +140,7 @@ link-card: <4>
   width: 400 <5>
   height: 600 <6>
   padding: "1em" <7>
-  background-color: "--var-neutral-dark" <8>
+  background-color: "--color-neutral-dark" <8>
   description: | <9>
     This is the description here.
 
@@ -155,7 +155,44 @@ Describe all the patterns together as a group. <1>
 
 === Pattern readme simple version
 
+If the pattern is just a single HTML file, with no background colour, and no other configuration you can skip all the YAML stuff and write the description directly in the `README.md` file.
+
 [source,markdown]
 ----
 Description for a pattern that includes one a single HTML file.
 ----
+
+''''
+
+== Theme CSS quick reference
+
+Patternbot will look in the `:root` selector inside `theme.css` for specific variable names and show those in the pattern library. _Specifically variables that start with `--color` & `--font` that will be used to generate the pattern library._
+
+[source,css]
+----
+:root {
+  --color-primary: #f00; <1>
+  --color-primary-light: #f33; <2>
+
+  --color-secondary: #0f0; <3>
+  --color-secondary-dark: #030;
+
+  --color-accent-bright: blue; <4>
+  --color-neutral-boring: grey;
+
+  --color-code-bg: #e2e2e2; <5>
+
+  --font-primary: Roboto, sans-serif; <6>
+  --font-secondary: Georgia, serif; <7>
+  --font-code: "Source Code Pro", monospace; <8>
+}
+----
+[.code-labels]
+<1> The primary colour can be denoted using the `primary` keyword, it’ll be shown in the library with the largest palette, and used as accents throughout the interface.
+<2> You can follow any `primary` colour with another word and the colours will be grouped in the same palette, great for showing shades & tints of the same hue.
+<3> The secondary can be denoted using the `secondary` keyword, like primary you can have other words after to create a palette.
+<4> There’s also the `accent` colour keyword & the `neutral` keyword—each will be shown in different groupings in the pattern library.
+<5> Any CSS variable that starts with `--color-` (and isn’t one of the above key colours) will show up in the pattern library under the “accent” section.
+<6> The primary font should be the font used for the body copy, it will also be used as the primary font for all the text in the pattern library.
+<7> The secondary font is generally for headings, it will be used to display important headings in the pattern library.
+<8> Any CSS variable that starts with `--font-` (and isn’t `primary` or `secondary`) will show up under an “accent” fonts section.
